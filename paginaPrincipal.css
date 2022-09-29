@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    margin-right: 100px;
+}
+.linkHeader{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px;
+}
+.linkHeader:hover{
+    background-color:black ;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+    background-color: #111;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parte1{
+    background-image: url(./imagens/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+.texto1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+.border{
+    background-color: #111;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.parte2{
+    background-image: url(./imagens/moda.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.texto2, .texto3, .texto4, .texto5, .texto6, .texto7, .texto8, .texto9, .texto10{
+    text-align: center;
+    line-height: 55vh;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    visibility: hidden;
+}
+.descricao2, .descricao3, .descricao4, .descricao5, .descricao6, .descricao7, .descricao8, .descricao9, .descricao10{
+    color: #666666;
+    text-align: center;
+    padding: 50px;
+    height: 50%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.titulodescricao{
+    font-size: 40px;
+}
+
+.parte3{
+    background-image: url(./imagens/viagem.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao3{
+    background-color: #111;
+    color: white;
+}
+
+.parte4{
+    background-image: url(./imagens/cabelo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao4{
+    color: #666666
+}
+
+.parte5{
+    background-image: url(./imagens/manicure.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao5{
+    background-color: #111;
+    color: white;
+}
+
+.parte6{
+    background-image: url(./imagens/nutri.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao6{
+    color: #666666
+}
+
+.parte7{
+    background-image: url(./imagens/make.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao7{
+    background-color: #111;
+    color: white;
+}
+
+.parte8{
+    background-image: url(./imagens/livros.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao8{
+    color: #666666
+}
+
+.parte9{
+    background-image: url(./imagens/pet.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao9{
+    background-color: #111;
+    color: white;
+}
+
+.parte10{
+    background-image: url(./imagens/langerie.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+.descricao10{
+    color: #666666
+}
